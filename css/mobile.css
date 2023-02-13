@@ -2,5 +2,23 @@
     .container{
         max-width: 425px;
     }
-    
+
+    .hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/hero-tablet-bg.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-wrap {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/hero/hero-tablet-bg-2x.jpg);
+  }
+}
+
 }

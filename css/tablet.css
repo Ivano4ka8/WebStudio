@@ -2,6 +2,12 @@
   .container {
     max-width: 765px;
   }
+  .container-mini {
+    max-width: 582px;
+  }
+  .customers-container {
+    max-width: 552px;
+  }
   .mobile-menu {
     display: none;
   }
@@ -64,54 +70,58 @@
   }
 
   .hero {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero/hero-bg.jpg);
-}
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-wrap {
     background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ), url(../images/hero/hero-bg-2x.jpg);
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/hero-bg.jpg);
+    padding: 110px 137px;
   }
-}
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/hero-bg-2x.jpg);
+    }
+  }
+  .hero-title {
+    max-width: 494px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 40px;
+  }
+  .modal {
+    width: 408px;
+  }
 
-.hero-title {
-  max-width: 494px;
-  font-size: 56px;
-  line-height: 1.07;
-  margin-bottom: 40px;
-}
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .features-item {
+    flex-basis: calc((100% - 24px) / 2);
+    margin-bottom: 0;
+  }
 
-.main-btn {
-  min-width: 169px;
-  height: 56px;
-  font-family: "Roboto", sans-serif;
-  background-color: var(--primary-brand-color);
-  color: var(--white-color);
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  line-height: 1.5;
-  cursor: pointer;
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+  .team-item {
+    flex-basis: calc((100% - 24px) / 2);
+    margin-bottom: 0;
+  }
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-
-  transition: background-color var(--main-transition);
-}
-.main-btn:hover,
-.main-btn:focus {
-  background: var(--pressed-state-color);
-}
-
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
 }

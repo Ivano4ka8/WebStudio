@@ -124,4 +124,20 @@
   .customers-item {
     flex-basis: calc((100% - 48px) / 3);
   }
+
+  .footer-wrapper {
+ flex-direction: row;
+ flex-wrap: wrap;
+  gap:24px;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.form-footer-field {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 24px;
+}
+.footer-form-label{
+  top: 37%;
+}
 }

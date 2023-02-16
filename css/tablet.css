@@ -14,7 +14,6 @@
   .mobile-menu-open {
     display: none;
   }
-
   .main-nav {
     display: flex;
   }
@@ -139,5 +138,22 @@
 }
 .footer-form-label{
   top: 37%;
+}
+.portfolio-filters{
+  padding-top: 64px;
+}
+  .portfolio-filters-list{
+  margin-bottom: 64px;
+}
+.portfolio-examples-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px 24px;
+  margin-bottom: 96px;
+}
+.examples-item {
+  margin-bottom:0;
+  width: calc((100% - 24px) / 2);
+  background-color: #ffffff;
 }
 }

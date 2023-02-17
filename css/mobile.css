@@ -14,7 +14,6 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/hero-tablet-bg.jpg);
-    padding: 110px 137px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -25,6 +24,9 @@
           rgba(46, 47, 66, 0.7)
         ),
         url(../images/hero/hero-tablet-bg-2x.jpg);
+    }
+    .modal{
+       width: 392px;
     }
   }
  

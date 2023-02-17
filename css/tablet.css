@@ -1,12 +1,9 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 765px;
+    max-width: 768px;
   }
   .container-mini {
     max-width: 582px;
-  }
-  .customers-container {
-    max-width: 552px;
   }
   .mobile-menu {
     display: none;
@@ -74,7 +71,6 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero/hero-bg.jpg);
-    padding: 110px 137px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -109,19 +105,19 @@
 
   .team-list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
   }
   .team-item {
     flex-basis: calc((100% - 24px) / 2);
-    margin-bottom: 0;
   }
 
   .customers-list {
     gap: 72px 24px;
   }
   .customers-item {
-    flex-basis: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 234px) / 3);
   }
 
   .footer-wrapper {
@@ -129,7 +125,7 @@
  flex-wrap: wrap;
   gap:24px;
   align-items: baseline;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .form-footer-field {
   flex-direction: row;

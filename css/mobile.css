@@ -2,9 +2,9 @@
   .container {
     max-width: 425px;
   }
-  .container-mini{
-   max-width:294px;
-}
+  .container-mini {
+    max-width: 294px;
+  }
   .hero .container {
     max-width: 100%;
   }
@@ -25,10 +25,8 @@
         ),
         url(../images/hero/hero-tablet-bg-2x.jpg);
     }
-    .modal{
-       width: 392px;
-    }
   }
- 
- 
+  .modal {
+    width: 392px;
+  }
 }

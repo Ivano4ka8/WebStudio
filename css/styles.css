@@ -604,6 +604,7 @@ img {
 
 .portfolio-filters {
   padding-top: 48px;
+  padding-bottom: 48px;
 }
 .portfolio-filters-list {
   display: flex;
@@ -891,33 +892,6 @@ img {
   border: none;
 }
 
-@media screen and (max-width: 767px) {
-  .logo-footer {
-    display: block;
-    text-align: center;
-  }
-  .footer-description {
-    text-align: center;
-  }
-  .footer-soc-title {
-    text-align: center;
-  }
-  .footer-form-title {
-    text-align: center;
-  }
-  .portfolio-filters {
-    padding-top: 48px;
-  }
-  .filter-buttons {
-    padding: 8px 12px;
-  }
-  .portfolio-filters-list {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 16px 24px;
-    max-width: 263px;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   .section {
@@ -940,5 +914,35 @@ img {
   }
   .our-work {
     display: none;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .logo-footer {
+    display: block;
+    text-align: center;
+  }
+  .footer-description {
+    text-align: center;
+  }
+  .footer-soc-title {
+    text-align: center;
+  }
+  .footer-form-title {
+    text-align: center;
+  }
+  .portfolio-filters {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .filter-buttons {
+    padding: 8px 12px;
+  }
+  .portfolio-filters-list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 16px 24px;
+    max-width: 263px;
   }
 }

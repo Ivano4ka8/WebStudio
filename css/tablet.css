@@ -83,6 +83,9 @@
         url(../images/hero/hero-bg-2x.jpg);
     }
   }
+  .hero{
+    padding: 112px 0;
+  }
   .hero-title {
     max-width: 494px;
     font-size: 56px;
@@ -138,14 +141,10 @@
 .portfolio-filters{
   padding-top: 64px;
 }
-  .portfolio-filters-list{
-  margin-bottom: 64px;
-}
 .portfolio-examples-list {
   display: flex;
   flex-wrap: wrap;
   gap: 72px 24px;
-  margin-bottom: 96px;
 }
 .examples-item {
   margin-bottom:0;
